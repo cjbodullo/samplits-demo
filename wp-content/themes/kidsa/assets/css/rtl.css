@@ -1,0 +1,73 @@
+/* rtl.css */
+
+body,
+.rtl-enable {
+  direction: rtl;
+}
+
+.rtl-enable .category-oneadjust:before,
+.category-oneadjust:before {
+  right: 130px !important;
+}
+
+.rtl-enable .category-oneadjust i,
+.category-oneadjust i {
+  margin-left: 10px;
+}
+
+.rtl-enable .header-top-wrapper .contact-list li a,
+.header-top-wrapper .contact-list li a {
+  margin-right: 10px;
+}
+
+.rtl-enable .header-3 .header-main .header-right .author-icon .icon::before,
+.header-3 .header-main .header-right .author-icon .icon::before {
+  right: -36px;
+}
+
+.rtl-enable .custom-hero-button .button-text span,
+.custom-hero-button .button-text span {
+  margin-right: 10px;
+}
+
+
+.rtl-enable .ripple::before,
+.rtl-enable .ripple::after,
+.ripple::before,
+.ripple::after {
+  right: -35px !important;
+}
+
+.rtl-enable .about-wrapper .about-content .about-author .author-icon .icon::before,
+.about-wrapper .about-content .about-author .author-icon .icon::before {
+  right: -36px !important;
+}
+
+.rtl-enable .elementor-icon,
+.elementor-icon {
+  margin-left: 15px;
+}
+
+.rtl-enable .contact-wrapper .contact-image,
+.contact-wrapper .contact-image {
+  right: inherit;
+  left: 0;
+}
+
+.rtl-enable .pricing-items .icon,
+.pricing-items .icon {
+  right: inherit !important;
+  left: 60px !important;
+}
+
+.rtl-enable .footer-widgets-wrapper .single-footer-widget .footer-content .footer-input .newsletter-btn,
+.footer-widgets-wrapper .single-footer-widget .footer-content .footer-input .newsletter-btn {
+  right: inherit;
+  left: 5px;
+}
+
+.rtl-enable .td-mega-col-3 .sub-menu,
+.rtl-enable .td-mega-col-6 .sub-menu {
+  transform: translateX(50%) !important;
+}
+
